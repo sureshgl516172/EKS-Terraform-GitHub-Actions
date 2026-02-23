@@ -12,7 +12,7 @@ terraform {
     key          = "eks/terraform.tfstate"
     dynamodb_table = "Lock-Files"
     encrypt        = true
-    //use_lockfile = true
+    use_lockfile = true
     //encrypt      = true
   }
 }
